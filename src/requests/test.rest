@@ -1,0 +1,10 @@
+@hostname = localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+
+###
+POST /api/ping
+Host: {{host}}
+Content-Type: application/json
+
+###
